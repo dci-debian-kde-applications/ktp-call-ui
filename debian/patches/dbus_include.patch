@@ -1,11 +1,21 @@
+From: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Date: Fri, 29 Apr 2016 16:47:12 +0200
+Subject: dbus_include
+
 Author: Diane Trout <diane@ghic.org>
-Description: link qtf against d-bus to avoid a missing symbols error.
+Description: link qtf against d-bus to avoid a missing symbols error
+---
+ libqtf/CMakeLists.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/libqtf/CMakeLists.txt b/libqtf/CMakeLists.txt
+index 3025576..8b4831b 100644
 --- a/libqtf/CMakeLists.txt
 +++ b/libqtf/CMakeLists.txt
-@@ -10,6 +10,7 @@
+@@ -10,6 +10,7 @@ include_directories(
      ${TP_FARSTREAM_INCLUDE_DIRS}
      ${FARSTREAM_INCLUDE_DIRS}
-     ${TELEPATHY_QT4_FARSTREAM_INCLUDE_DIR}
+     ${TELEPATHY_QT5_FARSTREAM_INCLUDE_DIR}
 +    ${DBUS_INCLUDE_DIR}
  )
  
