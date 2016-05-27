@@ -1,9 +1,15 @@
-ktp-call-ui (16.04.0-1~) UNRELEASED; urgency=medium
+ktp-call-ui (16.04.0-2~~1.gbpcba6a7) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @cba6a7c35baf76ea9b96d7d8c2268db970e186ba **
+
+  [ Diane Trout ]
   * Update watch file to point at http://download.kde.org
   * New upstream release (16.04.0).
 
- -- Diane Trout <diane@ghic.org>  Wed, 27 May 2015 22:47:55 -0700
+  [ Maximiliano Curia ]
+  * Add missing build dependency
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 27 May 2016 23:39:44 +0200
 
 ktp-call-ui (0.9.0-2) unstable; urgency=medium
 
