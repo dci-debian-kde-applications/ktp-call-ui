@@ -1,10 +1,8 @@
-ktp-call-ui (16.04.0-2~1.gbpd8a984) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @d8a9842bf47395d59f5bfcdd64b4a7d60c4a4b43 **
+ktp-call-ui (16.04.0-2) experimental; urgency=medium
 
   * Update dependencies
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 03 Jun 2016 11:31:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jun 2016 09:36:52 +0200
 
 ktp-call-ui (16.04.0-1) experimental; urgency=medium
 
