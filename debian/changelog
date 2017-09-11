@@ -1,8 +1,11 @@
-ktp-call-ui (17.08.1-1~) UNRELEASED; urgency=medium
+ktp-call-ui (17.08.1-1) experimental; urgency=medium
 
   * New upstream release (17.08.1).
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 14:35:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 19:59:05 +0200
 
 ktp-call-ui (16.04.0-2) experimental; urgency=medium
 
