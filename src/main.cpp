@@ -36,9 +36,11 @@
 int main(int argc, char **argv)
 {
     KTp::TelepathyHandlerApplication app(argc, argv);
+    KLocalizedString::setApplicationDomain("ktp-call-ui");
+
     KAboutData aboutData("ktp-call-ui", i18n("KDE Telepathy Call Ui"),
                           KTP_CALL_UI_VERSION,
-                          i18n("VoIP client for KDE"), KAboutLicense::GPL,
+                          i18n("VoIP client by KDE"), KAboutLicense::GPL,
                           i18n("(C) 2009-2012, George Kiagiadakis\n"
                                 "(C) 2010-2011, Collabora Ltd."));
     aboutData.addAuthor(i18nc("@info:credit", "George Kiagiadakis"), QString(),
