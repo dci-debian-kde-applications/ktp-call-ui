@@ -39,3 +39,4 @@ add_subdirectory(libktpcall)
 add_subdirectory(src)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ki18n_install(po)
