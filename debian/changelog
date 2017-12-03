@@ -4,6 +4,7 @@ ktp-call-ui (17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 14:23:12 +0100
 
@@ -102,7 +103,7 @@ ktp-call-ui (0.6.3-1) unstable; urgency=low
   * Bump Standards-Version to 3.9.4. No changes needed.
   * Update watch file as KDE-Telepathy is now in KDE stable.
 
-  [ Mark Purcell ] 
+  [ Mark Purcell ]
   * Imported Upstream version 0.6.3
   * Add myself to Uploaders
   * Update Build-Depends: libktpcommoninternalsprivate-dev (>= 0.6.3)
