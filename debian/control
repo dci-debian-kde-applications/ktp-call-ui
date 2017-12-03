@@ -41,7 +41,7 @@ Depends: gstreamer1.0-plugins-base,
          kde-telepathy-data (>= 0.8.1),
          pulseaudio [linux-any] | gstreamer1.0-alsa [linux-any],
          qml-module-org-kde-telepathy,
-         qtgstreamer-declarative (>= 1.2),
+         qml-module-qtgstreamer (>= 1.2),
          ${misc:Depends},
          ${shlibs:Depends},
 Recommends: gstreamer1.0-libav, gstreamer1.0-plugins-ugly, kde-telepathy

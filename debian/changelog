@@ -14,6 +14,8 @@ ktp-call-ui (17.08.3-0r1) UNRELEASED; urgency=medium
     - libtelepathy-qt5-dev to >= 0.9.7
   * Do not pass anymore TP_FARSTREAM_INCLUDE_DIRS, and DBUS_INCLUDE_DIR to
     cmake, as it is not needed. (Closes: #720578)
+  * Replace the qtgstreamer-declarative (qt4) dependency with
+    qml-module-qtgstreamer (qt5).
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 14:23:12 +0100
 
