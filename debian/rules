@@ -2,12 +2,5 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
-CMAKE_FLAGS := \
-    -DTP_FARSTREAM_INCLUDE_DIRS=/usr/include/telepathy-1.0 \
-    -DDBUS_INCLUDE_DIR=/usr/include/dbus-1.0
-
-override_dh_auto_configure:
-	dh_auto_configure -- $(CMAKE_FLAGS)
-
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='kde-telepathy-call-ui (<= 16.04.0-1~~)'
