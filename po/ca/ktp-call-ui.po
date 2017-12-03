@@ -4,14 +4,14 @@
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Josep Ma. Ferrer <txemaq@gmail.com>, 2012, 2013, 2014, 2015, 2017.
-# Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2016.
+# Antoni Bella Pérez <antonibella5@yahoo.com>, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ktp-call-ui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2017-03-24 02:42+0100\n"
-"PO-Revision-Date: 2017-03-15 20:22+0100\n"
-"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"PO-Revision-Date: 2017-10-24 15:28+0100\n"
+"Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -359,7 +359,7 @@ msgstr "IU de marcatge del Telepathy del KDE"
 #: src/dialout/main.cpp:34 src/main.cpp:43
 #, kde-format
 msgid "VoIP client by KDE"
-msgstr "Client de VoIP creat per la comunitat KDE"
+msgstr "Client de VoIP, creat per la comunitat KDE"
 
 #: src/dialout/main.cpp:35 src/main.cpp:44
 #, kde-format
