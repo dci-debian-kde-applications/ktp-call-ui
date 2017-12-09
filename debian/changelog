@@ -1,6 +1,7 @@
-ktp-call-ui (17.08.3-0r1) UNRELEASED; urgency=medium
+ktp-call-ui (17.08.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
+  * Upload to unstable.
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
@@ -17,7 +18,7 @@ ktp-call-ui (17.08.3-0r1) UNRELEASED; urgency=medium
   * Replace the qtgstreamer-declarative (qt4) dependency with
     qml-module-qtgstreamer (qt5).
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 14:23:12 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 09 Dec 2017 08:47:00 +0100
 
 ktp-call-ui (17.08.1-1) experimental; urgency=medium
 
